@@ -1,0 +1,52 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 175;
+    top: 0;
+    left: 0;
+    background-color:#dad5d58f;
+    overflow-x: hidden;
+}
+
+.sidenav1 a {
+   padding: 20px 6px 6px 42px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-weight: 300;
+}
+
+.sidenav1 a:hover {
+    color: #f1f1f1;
+}
+.sidenav1{
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#707070;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.closebtn{
+    position: absolute;
+    top:15;
+    right: 15;
+}
+.main{
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
